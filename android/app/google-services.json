@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "780320777729",
+    "project_id": "parchunwholesale",
+    "storage_bucket": "parchunwholesale.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:780320777729:android:fc98fd17ec63e2ca580200",
+        "android_client_info": {
+          "package_name": "com.parchunwholesale"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "780320777729-7daj5vd9nhlar053s57mcsl8065e0r5l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAD3CeKDlbonct0EvDVyon67gcObpQMyd0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "780320777729-7daj5vd9nhlar053s57mcsl8065e0r5l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
