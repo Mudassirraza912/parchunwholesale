@@ -14,6 +14,22 @@
       },
       "oauth_client": [
         {
+          "client_id": "780320777729-7p6skmj2crnglpjg248ulpp7v29eh2g7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.parchunwholesale",
+            "certificate_hash": "8a47fbe6dc355ad8c5bccfd81ee836ba4c0300a4"
+          }
+        },
+        {
+          "client_id": "780320777729-sg9ruvk67an6vri921a2hr99u0988bi8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.parchunwholesale",
+            "certificate_hash": "55f366ae42e573e8c56d5c9a6859dd5b27b98d72"
+          }
+        },
+        {
           "client_id": "780320777729-7daj5vd9nhlar053s57mcsl8065e0r5l.apps.googleusercontent.com",
           "client_type": 3
         }

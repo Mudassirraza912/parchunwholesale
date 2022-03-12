@@ -33,11 +33,13 @@ export function verifyPhoneNumber(phoneNumber) {
 }
 
 export function login(user) {
-  return function (dispatch) {
+  return async function (dispatch) {
     dispatch({ type: "LOGIN_PROCESSING" });
     dispatch({ type: "LOGIN_PROCESSED", payload: user })
     dispatch({ type: VERIFY_PHONE_CODE_PROCESSED, payload: null })
-    NavigationService.navigate("Dashboard")
+    const data = await firestore().collection('users').where("uid", "==", user?._user?.uid).get().then(resUser => resUser.forEach(ele => ele?.data()))
+    console.log('user data on signin', user?._user, "DATABASE", data)
+    // NavigationService.navigate("Dashboard")
   }
 }
 

@@ -5,7 +5,6 @@ import uniqueId  from 'react-native-unique-id'
 import { Alert } from "react-native";
 import NavigationService from "../../Navigation/NavigationService";
 const cartItemsRef = firestore().collection("cartitems")
-import { AppEventsLogger } from "react-native-fbsdk-next";
 
 import { v4 as uuidv4 } from 'uuid';
 
@@ -110,7 +109,6 @@ export function placeOrder(obj, cartItem) {
                     cartItemsRef
                     .doc(val.docKey)
                     .update({status: 'orderplaced', orderId: res})
-                    AppEventsLogger.logPurchase(obj.totalAmount, "PKR", obj);
                 })
                 firestore().collection('orders').add(obj)
                 dispatch({type: EMPTY_PROMO})

@@ -21,11 +21,9 @@ import { Provider } from 'react-redux';
 import store from './src/Redux/Store/store'
 import NavigtionService from './src/Navigation/NavigationService';
 
-import { Settings } from 'react-native-fbsdk-next';
 
 // // Ask for consent first if necessary
 // // Possibly only do this for iOS if no need to handle a GDPR-type flow
-Settings.initializeSDK();
 
 
 export default class App extends React.Component {
